@@ -22,6 +22,13 @@
 /lp/mocking/ /api-mocking/
 /blog/new-stoplight-docs-a-stoplight-api-raml-1-0-5x-faster-api-docs-b90cfcfff517 /
 /blog/what-is-api-testing /what-is-api-testing/
+/blog/the-fundamentals-of-http-api-unit-testing-2c55cd0c7634 /blog/
+/blog/api-testing-achieving-quick-and-easy-service-virtualization-with-stoplight-a590f20a414f /blog/
+/blog/api-integration-testing /blog/
+/blog/api-security-in-openapi-b105ae725a08 /blog/
+/blog/create-flawless-api-documentation-with-stoplights-hubs-f2e23ffeb58a /blog/
+/blog/getting-started-with-api-design-using-stoplight-and-openapi-90fc8f37ac2e /blog/
+
 
 /blog/changelog/ /blog/
 /testing/ /api-mocking/
