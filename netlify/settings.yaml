@@ -4,6 +4,7 @@ banners:
       Introducing Stoplight Platform, built from the ground up to work with your Git repos and workflows. <u
       class='ml-1'>**[Read the announcement](/blog/stoplight-platform)**</u>
     starts: 1570550400000
+    hideOnPath: /blog/stoplight-platform
 info:
   address:
     addressLocality: Austin

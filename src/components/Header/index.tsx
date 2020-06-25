@@ -148,12 +148,13 @@ export const Banner = ({ banner }) => {
       <div className="container flex flex-no-wrap items-center h-12">
         <Icon icon={['fad', 'rocket']} className="mr-3" />
 
-        <div className="flex-1 text-white" dangerouslySetInnerHTML={{ __html: banner && banner.markdown }} />
-
         <div
-          className="flex items-center justify-center justify-end p-2 rounded cursor-pointer hover:bg-lighten-100 text-lighten-400 hover:text-black"
+          className="flex-1 text-white"
           onClick={onClickBanner}
-        >
+          dangerouslySetInnerHTML={{ __html: banner && banner.markdown }}
+        />
+
+        <div className="flex items-center justify-center justify-end p-2 rounded cursor-pointer hover:bg-lighten-100 text-lighten-400 hover:text-black">
           <Icon icon="times" />
         </div>
       </div>
