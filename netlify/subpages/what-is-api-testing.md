@@ -1,12 +1,6 @@
 ---
 path: /what-is-api-testing/
-tags:
-  - blog-api-testing
-  - blog
-relatedTags:
-  - blog-api-testing
 publishedDate: 2020-06-25
-author: Phil Sturgeon
 title: What is the Meaning of API Testing?
 subtitle: >-
   How and why to use various types of API testing
@@ -27,6 +21,8 @@ meta:
     username: '@stoplightio'
   url: https://stoplight.io/what-is-api-testing/
 ---
+
+[By Phil Sturgeon](https://stoplight.io/blog/author/phil-sturgeon/)
 
 API testing is a software process which validates that an API is working as expected. Once declared, API tests can run automatically, such as part of a test suite on a continuos integration server, a development environment, or even done in production.
 
