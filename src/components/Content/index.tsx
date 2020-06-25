@@ -25,7 +25,7 @@ export const Content: React.FunctionComponent<IContent> = ({ sidebar, includeToc
     <>
       {!sidebar && includeToc ? (
         <div
-          className="sticky z-10 flex flex-col items-end w-1/6 m-auto -mb-40 -mr-20 md:-mr-6 sm:-mb-48 sm:py-8"
+          className="sticky flex flex-col items-end w-1/6 m-auto -mb-40 -mr-20 z-1 md:-mr-6 sm:-mb-48 sm:py-8"
           style={{ top: isBannerShowing ? 140 : 80, marginRight: 0, marginTop: 76, marginBottom: -200 }}
         >
           <div className="p-4 bg-white border rounded-lg md:hidden">

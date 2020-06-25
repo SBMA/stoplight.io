@@ -79,7 +79,7 @@ export const Subpage: React.FunctionComponent<IPage> = ({
 
       <Section noPadding>
         <Container className="mx-auto my-10 sm:-mb-1">
-          <div className="relative pb-20">
+          <div className="relative pb-1">
             {sidebar && (
               <div className="float-right w-1/3 mb-12 ml-12 -mt-32 sm:mt-0 sm:ml-0 sm:mb-24 sm:w-full sm:float-none">
                 {sidebar.info ? <Info {...sidebar.info} /> : null}
@@ -102,9 +102,8 @@ export const Subpage: React.FunctionComponent<IPage> = ({
                 <Image className="rounded-lg shadow bodyImage" src={bodyImage} alt={bodyImage} />
               </div>
             )}
-
-            <Content body={body} sidebar={sidebar} includeToc={includeToc} className={className} />
           </div>
+          <Content body={body} sidebar={sidebar} includeToc={includeToc} className={className} />
         </Container>
       </Section>
 
